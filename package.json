@@ -1,0 +1,33 @@
+{
+  "name": "nodestudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "test": "jest .\test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavooliveira2507/nodestudy.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavooliveira2507/nodestudy/issues"
+  },
+  "homepage": "https://github.com/gustavooliveira2507/nodestudy#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  }
+}
